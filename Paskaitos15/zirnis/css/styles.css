@@ -5,19 +5,79 @@ header {
   font-family: "Playfair Display", serif;
   color: red;
 }
+
 nav {
   display: flex;
   height: 50px;
 }
-nav > p {
-  margin: 5px 5px 5px 5px;
+
+nav>a {
+    color: #828182;
+    text-decoration: none;
+  margin: 15px 30px 5px 5px;
 }
+
 .knopke {
-  width: 150px;
+  width: 50px;
   height: 50px;
-  background-color: blue;
-  margin: 5 5 5 5px;
+  margin: 10px 5px 5px 10px;
 }
+
 body {
   margin: 0;
+}
+
+div {
+  display: inline;
+}
+
+.keturi {
+  color: #828182;
+  position: relative;
+  top: 150px;
+  left: 100px;
+  margin-right: 50px;
+  font-size: 100px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.textas {
+    color: #828182;
+  position: relative;
+  left: 100px;
+  top: 150px;
+  font-size: 50px;
+  size: 40px;
+  width: 49%;
+  font-style: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.zirnis {
+  margin-top: -100px;
+  margin-right: 50px;
+  float: right;
+}
+.img {
+  width: 49%;
+  height: 49%;
+  margin-top: 50px;
+  float: right;
+}
+
+section {
+  display: inline-block;
+  width: 100%;
+  margin-top: 30px;
+  text-align: left;
+}
+
+body {
+  background-color: #f8f8f8;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.signin {
+  border-radius: 25px;
+border: 2px solid grey;
+padding: 2px;
+width: 70px;
 }
