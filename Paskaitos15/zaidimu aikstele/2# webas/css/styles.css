@@ -1,0 +1,71 @@
+body {
+    background-color: #BDDEB4;
+  text-align: center;
+font-family: 'Playfair Display', serif;
+}
+
+h1 {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: o;
+  text-align: center;
+  font-size: 652,5%;
+  color: #66BFBF;
+  line-height: 200%;
+}
+.profilionuotrauka {
+border-radius: 50%;
+}
+div{
+  width: 100%;
+  margin: 0 auto 0 auto;
+  align: center;
+}
+h2 {
+font-size: 1.5rem;
+color: #66BFBF;
+font-weight: normal;
+}
+h3{
+  color: #11999E
+}
+.city {
+  margin:auto;
+  width: 100%;
+  height: auto;
+}
+.top-container {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.middle-container {
+  position: absolute;
+aligh: left;
+}
+
+.bottom-container {
+  align-self: baseline;
+  width: 200px;
+  height: 200px;
+
+}
+
+.mountain {
+  position: sticky;
+  top: 800px;
+  align: center;
+}
+
+.top-cloud{
+  position: absolute;
+  right: 600px;
+  top: 50px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 100px;
+  bottom: 50px;
+}

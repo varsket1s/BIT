@@ -1,12 +1,164 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
-    <link rel="styles" href="styles.css">
-    
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coming Soon</title>
 
+    <link rel="icon" href="./images/logo.png" />
+
+    <link rel="stylesheet" type="text/css" href="./css/reset.css" />
+
+    <link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="./css/components/button.css" />
+    <link rel="stylesheet" type="text/css" href="./css/components/clock.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./css/components/message-form.css"
+    />
+    <link rel="stylesheet" type="text/css" href="./css/components/mouse.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./css/components/progress-bar.css"
+    />
+
+    <link rel="stylesheet" type="text/css" href="./css/structure/footer.css" />
+    <link rel="stylesheet" type="text/css" href="./css/structure/body.css" />
+    <link rel="stylesheet" type="text/css" href="./css/structure/header.css" />
+
+    <link rel="stylesheet" type="text/css" href="./css/main.css" />
+  </head>
+
+  <body>
+    <div class="main">
+      <div class="container header">
+        <div class="header-row">
+          <img src="./images/logo.png" alt="logo" class="logo" />
+          <h1>Coming Soon</h1>
+          <p>An awesome new company for web resources is coming very soon.</p>
+          <p>Enter your email to request an early invitation!</p>
+          <div class="clock">
+            <div class="time time-padding-bottom">
+              <div class="value">432</div>
+              <div class="label">days</div>
+            </div>
+            <div class="time time-padding-bottom">
+              <div class="value" id="hours"></div>
+              <div class="label">hours</div>
+            </div>
+            <div class="time">
+              <div class="value" id="minutes"></div>
+              <div class="label">minutes</div>
+            </div>
+            <div class="time">
+              <div class="value" id="seconds"></div>
+              <div class="label">seconds</div>
+            </div>
+          </div>
+          <form>
+            <input
+              name="subscribe-email"
+              type="email"
+              placeholder="Type your email"
+            />
+            <div class="btn btn-center">Subscribe now</div>
+          </form>
+          <div class="mouse">
+            <div class="wheel"></div>
+          </div>
+        </div>
+      </div>
+      <div class="container body">
+        <div class="body-row">
+          <div class="left">
+            <h2>About startup</h2>
+            <p>
+              Matrox material design multi-purpose html template. It comes with
+              huge content and background variants.
+              <a class="link-simple" href="#">Matrox</a> is coming very soon. We
+              are nearly there.
+            </p>
+            <div class="progress-bar">
+              <div class="texts">
+                <div class="label">UX Design</div>
+                <div class="value">90%</div>
+              </div>
+              <div class="bar">
+                <div class="filler" style="width: 90%;">
+                  <div class="filler-bar"></div>
+                </div>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <div class="texts">
+                <div class="label">Web Design</div>
+                <div class="value">86%</div>
+              </div>
+              <div class="bar">
+                <div class="filler" style="width: 86%;">
+                  <div class="filler-bar"></div>
+                </div>
+              </div>
+            </div>
+            <div class="progress-bar">
+              <div class="texts">
+                <div class="label">Web Development</div>
+                <div class="value">50%</div>
+              </div>
+              <div class="bar">
+                <div class="filler" style="width: 50%;">
+                  <div class="filler-bar"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="right">
+            <h2>Have any questions?</h2>
+            <p>
+              You can use contact form below or contact us via e-mail at
+              <a class="link-simple" href="trendytheme@gmail.com"
+                >trendytheme@gmail.com</a
+              >. Contact form is fully working and very easy to customise.
+            </p>
+            <form>
+              <input name="msg-name" type="text" placeholder="Name" />
+              <input name="msg-email" type="text" placeholder="Email" />
+              <textarea name="message" placeholder="Message"></textarea>
+              <div class="btn right">Send message</div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <footer class="container footer">
+        <div class="footer-row">
+          <div class="socials">
+            <a class="fa fa-facebook" href="#" target="_blank"></a>
+            <a class="fa fa-twitter" href="#" target="_blank"></a>
+            <a class="fa fa-dribbble" href="#" target="_blank"></a>
+            <a class="fa fa-tumblr" href="#" target="_blank"></a>
+            <a class="fa fa-linkedin" href="#" target="_blank"></a>
+            <a class="fa fa-instagram" href="#" target="_blank"></a>
+            <a class="fa fa-rss" href="#" target="_blank"></a>
+          </div>
+          <div class="footer-links">
+            <img src="./images/footer.png" alt="Matrox logo" />
+            <div class="texts">
+              <div>Copyright &copy; 2020 <a class="" href="#">Matrox</a></div>
+              <div>All Rights Reserved</div>
+              <div>Designed by <a class="" href="#">TrendyTheme</a></div>
+            </div>
+            <p>
+              Matrox pack includes complete websites, not just homepages, it
+              comes with full website demos. Over 200* ready html only for 17$.
+              Purchase <a class="" href="#" target="_blank">Matrox</a> now.
+            </p>
+          </div>
+          <a class="btn fa fa-angle-up btn-circle" href="#"></a>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>

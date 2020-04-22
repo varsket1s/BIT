@@ -1,0 +1,22 @@
+
+body { background-color: #4f30a2;
+}
+
+
+h1 { color: red; font-size: 300%;
+}
+
+img { background-color: red;
+}
+img:hover {
+  background-color: gold;
+}
+/*class selectors*/
+
+.veliava {background-color: green;}
+.bacon {background-color: blue;}
+
+
+/*id selectors*/
+
+#heading {background-color: blue;}
